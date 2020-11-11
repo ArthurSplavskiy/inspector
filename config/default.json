@@ -1,0 +1,6 @@
+{
+    "port": 3300,
+    "mongoUri": "mongodb+srv://admin:mongodb_22.10@cluster0.swonv.mongodb.net/app?retryWrites=true&w=majority",
+    "jwtSecret": "inspector secret key",
+    "baseUrl": "http://localhost:3300"
+}

@@ -1,0 +1,81 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.register {
+  margin-left: 10px;
+}
+
+.card {
+  background-color: #ee6e73;
+}
+
+.card-title {
+  padding-bottom: 20px;
+}
+
+.input-color {
+  border-bottom: 1px solid #fff!important;
+  box-shadow: 0 1px 0 0 #fff!important;
+}
+
+.input-color + label {
+  color: #fff!important;
+}
+
+.input-color:focus {
+  border-bottom: 1px solid #fff!important;
+  box-shadow: 0 1px 0 0 #fff!important;
+}
+
+.input-color::placeholder {
+  color: #fff!important;
+}
+
+.input-con {
+  display: flex!important;
+  justify-content: space-between;
+}
+
+.inner-con {
+  position: relative;
+}
+
+.input-con .inner-con{
+  width: 48%!important;
+}
+
+.input-con label {
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+}
+
+.btn-con {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.payer-form {
+  padding: 20px 0;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.select-con {
+  margin: 20px 0;
+}
+
+#payer-phone, #payer-email {
+  margin-top: 20px;
+}
+
+.tax {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+.insert-data {
+  text-decoration: underline;
+}
+
